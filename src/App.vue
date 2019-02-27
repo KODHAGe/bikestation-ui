@@ -32,7 +32,7 @@ html {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: normal;
   font-family: 'Gotham Rounded Bold';
 }

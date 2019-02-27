@@ -146,7 +146,7 @@ export default {
   }
 
   .prediction {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Gotham Rounded Bold';
     margin-bottom: 1em;
     margin-top: 1em;
