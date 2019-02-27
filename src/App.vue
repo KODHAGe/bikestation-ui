@@ -17,11 +17,86 @@ export default {
 
 <style>
 #app {
-  font-family: serif;
+  font-family: 'Gotham Rounded Medium';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #3d454f;
+}
+
+html {
+  height: 100%;
+  background-image: linear-gradient(#ffffff23, #fcbc1917);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+@font-face {
+font-family: 'Gotham Rounded Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Rounded Medium'), url('./assets/fonts/GothamRounded-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Gotham Rounded Medium Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Rounded Medium Italic'), url('./assets/fonts/GothamRounded-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Gotham Rounded Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Rounded Bold'), url('./assets/fonts/GothamRounded-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Gotham Rounded Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Rounded Bold Italic'), url('./assets/fonts/GothamRounded-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Gotham Rounded Light';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Rounded Light'), url('./assets/fonts/GothamRounded-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Gotham Rounded Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Rounded Light Italic'), url('./assets/fonts/GothamRounded-LightItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Gotham Rounded Book';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Rounded Book'), url('./assets/fonts/GothamRounded-Book.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Gotham Rounded Book Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Rounded Book Italic'), url('./assets/fonts/GothamRounded-BookItalic.woff') format('woff');
 }
 </style>

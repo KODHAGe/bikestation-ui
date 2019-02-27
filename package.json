@@ -5,11 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "now": "now ./dist -A ../now.json --public && now alias",
+    "deploy": "yarn run build && yarn run now"
   },
   "dependencies": {
     "@tensorflow/tfjs": "^0.15.1",
-    "vue": "^2.5.22"
+    "luxon": "^1.11.3",
+    "moment": "^2.24.0",
+    "vue": "^2.5.22",
+    "vue-datetime": "^1.0.0-beta.10",
+    "weekstart": "^1.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
