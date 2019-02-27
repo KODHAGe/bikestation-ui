@@ -1,7 +1,5 @@
 <template>
   <div>
-    <h1>Predict-a-bike</h1>
-    <p>Availability prediction for <a href="https://kaupunkipyorat.hsl.fi/en">Helsinki city bikes.</a><br/> Try July to October.</p>
     <div class="prediction-wrapper">
       <div class="prediction">{{prediction}}</div>
     </div>
@@ -149,7 +147,7 @@ export default {
 
   .prediction {
     font-size: 3em;
-    font-weight: bold;
+    font-family: 'Gotham Rounded Bold';
     margin-bottom: 1em;
     margin-top: 1em;
     padding:20px;

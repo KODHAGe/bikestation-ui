@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <h1>Predict-a-bike</h1>
+    <p>Availability prediction for <a href="https://kaupunkipyorat.hsl.fi/en">Helsinki city bikes.</a> Try July to October.</p>
     <PredictionControl/>
   </div>
 </template>
@@ -31,10 +33,17 @@ html {
 
 h1 {
   font-size: 2em;
+  font-weight: normal;
+  font-family: 'Gotham Rounded Bold';
 }
 
 h2 {
   font-size: 1.2em;
+}
+
+p {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 @font-face {
