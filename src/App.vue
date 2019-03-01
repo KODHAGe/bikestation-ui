@@ -37,10 +37,6 @@ h1 {
   font-family: 'Gotham Rounded Bold';
 }
 
-h2 {
-  font-size: 1.2em;
-}
-
 p {
   margin-left: 1em;
   margin-right: 1em;
